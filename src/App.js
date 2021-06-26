@@ -12,7 +12,7 @@ function App() {
     const DivApp = styled.div`
         position:relative;
     `;
-    const req='http://Steve-siddu/Quiz';
+    const req='http://Steve-siddu.github.io/Quiz';
 
     return (
         <DivApp>
