@@ -1,6 +1,6 @@
 
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 const Header = ({backColor}) => {
     console.log(backColor);
     return (
@@ -8,13 +8,13 @@ const Header = ({backColor}) => {
             <Logo >
                 <H1 backColor={backColor}>QuizAPP</H1>
             </Logo>
-            <List>
+            {/* <List>
                 <Ul backColor={backColor}>
                     <Link to='/' style={{textDecoration:'none'}}><Li backColor={backColor} >Home</Li></Link>
                     <Link to='/' style={{textDecoration:'none'}}><Li backColor={backColor}>About</Li></Link>
                     <Link to='/' style={{textDecoration:'none'}}><Li backColor={backColor}>Contact</Li></Link>
                 </Ul>
-            </List>
+            </List> */}
         </DivHeader>
     )
 }

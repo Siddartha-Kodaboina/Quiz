@@ -1,10 +1,11 @@
 
 import './App.css';
 import styled from 'styled-components';
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'; 
-import Home from './components/Home';
-import Topics from './components/Topics';
-import Quiz from './components/Quiz';
+// import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'; 
+// import Home from './components/Home';
+// import Topics from './components/Topics';
+// import Quiz from './components/Quiz';
+import Header from './components/ui/Header';
 
 function App() {
     
@@ -15,14 +16,15 @@ function App() {
 
     return (
         <DivApp>
-            <Router>
-                <Switch>
+            {/* <Router> */}
+                <Header />
+                {/* <Switch>
                     <Route path='/' exact component={Home}></Route>
                     <Route path='/topics' exact component={Topics}></Route>
                     <Route path='/topics/:id' component={Quiz}></Route>
                     <Route path='/' render={()=><div>404</div>}></Route>
-                </Switch>
-            </Router>
+                </Switch> */}
+            {/* // </Router> */}
         </DivApp> 
     );
 }
