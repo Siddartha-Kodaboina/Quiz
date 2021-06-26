@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,EACI,mCAAqC,CACrC,QAAQ,CACR,SAAS,CACT,qBACJ,CACA,QACI,gCACJ","file":"main.e8606c93.chunk.css","sourcesContent":["*{\r\n    font-family: 'Montserrat', sans-serif;\r\n    margin:0;\r\n    padding:0;\r\n    box-sizing: border-box;\r\n}\r\n.colorS{\r\n    background: rgba(23, 190, 115, 0.712);\r\n}"]}
