@@ -19,9 +19,9 @@ function App() {
             <Router>
                 {/* <Header /> */}
                 <Switch>
-                    <Route path={req+'/'} exact component={Home}></Route>
-                    <Route path={req+'/topics'} exact component={Topics}></Route>
-                    <Route path={req+'/topics/:id'} component={Quiz}></Route>
+                    <Route path='/' exact component={Home}></Route>
+                    <Route path='/topics' exact component={Topics}></Route>
+                    <Route path='/topics/:id' component={Quiz}></Route>
                     <Route path='/' render={()=>{
                         {console.log('thappu undhi')}
                         <div>404</div>}}>
